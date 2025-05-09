@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import sys
 
-# Afficher tous les arguments sauf le nom du fichier Python
-for i in range(1, len(sys.argv)):
+for i in range(1, len(sys.argv)):  # Commencer à 1 pour ignorer le nom du script
     print(sys.argv[i])
